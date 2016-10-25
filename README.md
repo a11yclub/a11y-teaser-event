@@ -1,5 +1,5 @@
 # Barrierefreiheit im Web
-<img src="https://cdn.rawgit.com/a11yclub/a11y-teaser-event/public/img/a11yclub-logo.svg" alt="Accessibility Club Logo" align="right"/>
+<img src="https://cdn.rawgit.com/a11yclub/a11y-teaser-event/master/public/img/a11yclub-logo.svg" alt="Accessibility Club Logo" align="right"/>
 ### Infoabend für Kulturveranstalter und kommunale Einrichtungen am 24.10.2016
 
 > Accessibility Club / tollwerk GmbH<br/>
