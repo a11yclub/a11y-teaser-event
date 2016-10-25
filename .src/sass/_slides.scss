@@ -5,6 +5,11 @@
 iframe {
 	width: 100%;
 	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 }
 
 strong, abbr {
@@ -49,4 +54,5 @@ video {
 twitterwidget {
 	margin-left: auto;
 	margin-right: auto;
+	transform: scale(2) rotate(0deg) !important;
 }

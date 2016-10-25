@@ -85,7 +85,7 @@ module.exports = function (grunt) {
         },
 
         clean: {
-            dist: ['.src/css/a11yclub-teaser.css', '.src/css/a11yclub-teaser.min.css'],
+            dist: ['.src/css/a11yclub-teaser.css', '.src/css/a11yclub-teaser.min.css', '.src/css/a11yclub-teaser-print.css', '.src/css/a11yclub-teaser-print.min.css'],
             favicon: ['public/favicon.ico'],
         },
 
@@ -97,8 +97,12 @@ module.exports = function (grunt) {
                 options: {
                     replacements: [
                         {
-                            pattern: '<link href="a11yclub-teaser.css" rel="stylesheet"/>',
-                            replacement: '<style><%= grunt.file.read(".src/css/a11yclub-teaser.min.css") %></style>'
+                            pattern: '<link media="all" href="a11yclub-teaser.css" rel="stylesheet"/>',
+                            replacement: '<style media="all"><%= grunt.file.read(".src/css/a11yclub-teaser.min.css") %></style>'
+                        },
+                        {
+                            pattern: '<link media="print" href="a11yclub-teaser-print.css" rel="stylesheet"/>',
+                            replacement: '<style media="print"><%= grunt.file.read(".src/css/a11yclub-teaser-print.min.css") %></style>'
                         },
                         {
                             pattern: '<!-- favicon -->',

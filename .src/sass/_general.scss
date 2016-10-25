@@ -47,11 +47,6 @@ ol {
 	font-size: 4vw;
 }
 
-.slides {
-	list-style: none;
-	font-weight: normal;
-}
-
 .very-big {
 	font-size: 7vw;
 }
@@ -155,15 +150,25 @@ ul {
 	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
+	list-style: none;
+	font-weight: normal;
 
 	> li {
 		//display: none;
 		display: table;
 		list-style: none;
 		position: absolute;
+		border-collapse: collapse;
+		border-style: solid;
+		border-color: transparent;
+		border-top-width: 15vh;
+		border-bottom-width: 15vh;
+		border-left-width: 10vw;
+		border-right-width: 10vw;
+
 		width: 100%;
 		height: 100%;
-		padding: 15vh 10vw;
+		padding: 0;
 		color: $foreground;
 		background-color: $background;
 		background-image: radial-gradient(ellipse farthest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.4) 100%);
@@ -181,7 +186,6 @@ ul {
 		> section::before {
 			content: '';
 			display: block;
-			position: absolute;
 			position: absolute;
 			width: 100%;
 			height: 100%;
