@@ -9,7 +9,7 @@ html, body {
 }
 
 h1, h2 {
-	margin: 0 auto;
+	margin: 0;
 	max-width: 80vw;
 	padding: 0;
 	line-height: 1;
@@ -159,16 +159,9 @@ ul {
 		list-style: none;
 		position: absolute;
 		border-collapse: collapse;
-		border-style: solid;
-		border-color: transparent;
-		border-top-width: 15vh;
-		border-bottom-width: 15vh;
-		border-left-width: 10vw;
-		border-right-width: 10vw;
 
 		width: 100%;
 		height: 100%;
-		padding: 0;
 		color: $foreground;
 		background-color: $background;
 		background-image: radial-gradient(ellipse farthest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.4) 100%);
@@ -198,6 +191,7 @@ ul {
 		}
 
 		> * {
+			padding: 10vw 15vh;
 			display: table-cell;
 			text-align: left;
 			background-repeat: no-repeat;

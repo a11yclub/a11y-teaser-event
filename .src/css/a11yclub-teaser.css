@@ -15,7 +15,7 @@ html, body {
   margin: 0; }
 
 h1, h2 {
-  margin: 0 auto;
+  margin: 0;
   max-width: 80vw;
   padding: 0;
   line-height: 1;
@@ -135,15 +135,8 @@ ul {
     list-style: none;
     position: absolute;
     border-collapse: collapse;
-    border-style: solid;
-    border-color: transparent;
-    border-top-width: 15vh;
-    border-bottom-width: 15vh;
-    border-left-width: 10vw;
-    border-right-width: 10vw;
     width: 100%;
     height: 100%;
-    padding: 0;
     color: #fff;
     background-color: #2b242b;
     background-image: radial-gradient(ellipse farthest-corner, transparent 0, rgba(0, 0, 0, 0.4) 100%);
@@ -166,6 +159,7 @@ ul {
       background-position: center center;
       z-index: -1; }
     .slides > li > * {
+      padding: 10vw 15vh;
       display: table-cell;
       text-align: left;
       background-repeat: no-repeat; }
@@ -296,12 +290,7 @@ blockquote {
 
 iframe {
   width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0; }
+  height: 100%; }
 
 strong, abbr {
   font-weight: normal;
