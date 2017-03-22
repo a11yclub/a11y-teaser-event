@@ -300,6 +300,9 @@ abbr::after {
   color: #0f7595;
   content: " (" attr(title) ")"; }
 
+#start section p {
+  width: 60vw; }
+
 #webaim div {
   text-align: center;
   float: right;

@@ -1,13 +1,14 @@
 # Barrierefreiheit im Web
 <img src="https://cdn.rawgit.com/a11yclub/a11y-teaser-event/master/public/img/a11yclub-logo.svg" alt="Accessibility Club Logo" align="right"/>
-### Infoabend für Kulturveranstalter und kommunale Einrichtungen am 24.10.2016
+
+### 1. Fachtag Fit für Inklusion am 23.3.2017
 
 > Accessibility Club / tollwerk GmbH<br/>
 > Präsentationsfolien (Deutsch)
 
 ___
 
-Vortragsfolien im Querformat auch online verfügbar unter [https://accessibility-club.org/archive/20161024/slides](https://accessibility-club.org/archive/20161024/slides).
+Vortragsfolien im Querformat auch online verfügbar unter [https://accessibility-club.org/archive/20170323/slides](https://accessibility-club.org/archive/20170323/slides).
 
 #### Tastaturkürzel
 

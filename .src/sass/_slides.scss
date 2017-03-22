@@ -17,6 +17,10 @@ abbr::after {
 	content: " (" attr(title) ")";
 }
 
+#start section p {
+	width: 60vw;
+}
+
 #webaim {
 	div {
 		text-align: center;
@@ -50,4 +54,9 @@ twitterwidget {
 	margin-left: auto;
 	margin-right: auto;
 	transform: scale(2) rotate(0deg) !important;
+}
+
+video::-webkit-media-text-track-display {
+	-webkit-transform: translateY(-3em);
+	transform: translateY(-3em);
 }
