@@ -139,7 +139,7 @@ ul {
     height: 100%;
     color: #fff;
     background-color: #2b242b;
-    background-image: radial-gradient(ellipse farthest-corner, transparent 0, rgba(0, 0, 0, 0.4) 100%);
+    background-image: radial-gradient(ellipse farthest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.4) 100%);
     opacity: 0;
     transition: opacity 200ms ease; }
     .slides > li.no-gradient {
@@ -265,8 +265,7 @@ blockquote {
     float: left;
     line-height: 0;
     height: .5em;
-    -webkit-shape-outside: circle(50%);
-            shape-outside: circle(50%);
+    shape-outside: circle(50%);
     margin: -8vw 4vw 0 -6vw;
     color: #FBB03B; }
   blockquote .author {
@@ -279,8 +278,7 @@ blockquote {
   max-width: 20vw;
   border-radius: 50%;
   margin-right: 5vw;
-  -webkit-shape-outside: circle(50%);
-          shape-outside: circle(50%); }
+  shape-outside: circle(50%); }
 
 .blockquote blockquote::before {
   display: none; }
@@ -294,7 +292,8 @@ iframe {
 
 strong, abbr {
   font-weight: normal;
-  color: #FBB03B; }
+  color: #FBB03B;
+  text-decoration: none; }
 
 abbr::after {
   color: #0f7595;
@@ -327,3 +326,13 @@ twitterwidget {
   margin-right: auto;
   -ms-transform: scale(2) rotate(0deg) !important;
       transform: scale(2) rotate(0deg) !important; }
+
+#inclusive-icons {
+  max-width: 100%; }
+
+#gds {
+  max-height: 70vh; }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  video::-webkit-media-text-track-display {
+    font-size: 50%; } }

@@ -2,6 +2,8 @@
 module.exports = function (grunt) {
     require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
     var mozjpeg = require('imagemin-mozjpeg');
+    var sass = require('node-sass');
+
     grunt.initConfig({
 
         sass: {
@@ -20,7 +22,8 @@ module.exports = function (grunt) {
                 }],
                 options: {
                     sourcemap: true,
-                    style: 'nested'
+                    style: 'nested',
+                    implementation: sass
                 }
             }
         },
